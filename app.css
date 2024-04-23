@@ -1,0 +1,207 @@
+/* Media query for devices with a minimum width of 1200px */
+@media only screen and (min-width: 1200px) {
+
+    #section1 {
+        width: auto; /* Width of the section */
+    }
+  }
+
+/* Media query for devices with a min-width of 768px */
+@media only screen and (min-width: 768px) {
+
+    #section1 {
+        width: auto; /* Width of the section */
+        height: 700px; /* Height of the section */
+        top: 77px; /* Distance from the top */
+        background-image: url('Image/Hero\ Image.png'); /* Background image path */
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .box {
+        width: 630px; /* Fixed width of 630 pixels */
+        height: 306px; /* Hug height of 306 pixels */
+        position: absolute;
+        top: 394px;
+        left: 80px;
+        padding: 24px 40px 32px 40px; /* Padding: top, right, bottom, left */
+        gap: 20px; /* Gap property is typically used with CSS grid and flexbox; it's not applicable here */
+        background: linear-gradient(to right, #4DCA79, #1CBDDD); /* Interstellar Blue to Rich Blue gradient */
+        
+      }
+    
+      .box p {
+        font-family: Inter; /* Font family */
+        font-size: 53px; /* Font size */
+        font-weight: 700; /* Font weight (700 = bold) */
+        line-height: 49px; /* Line height */
+        letter-spacing: -0.02em; /* Letter spacing */
+        text-align: left; /* Text alignment */
+        width: 586px; /* Width of the text */
+        height: 192px; /* Height of the text */
+        color: #FFFFFF; /* White text */
+        padding-left: 5px;
+      }
+      
+      
+      .btn-yuzu-jam {
+        background-color: #F28D35; /* Yuzu Jam */
+        color: #FFFFFF; /* White text */
+        width: 214px; /* Hug width of 214 pixels */
+        height: 38px; /* Hug height of 38 pixels */
+        
+        border-radius: 4px 0px 0px 0px; /* Border radius */
+        display: flex; /* Use flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+      
+      .btn-yuzu-jam span {
+        width: 174px; /* Width of the button text */
+        height: 14px; /* Height of the button text */
+        font-family: Inter; /* Font family */
+        font-size: 14px; /* Font size */
+        font-weight: 700; /* Font weight (700 = bold) */
+        line-height: 14px; /* Line height */
+        letter-spacing: -0.02em; /* Letter spacing */
+        text-align: left; /* Text alignment */
+        display: inline-block; /* Ensure inline-block for text alignment */
+      }
+
+    #section2 {
+        padding: 30px; /* Adjust padding for larger screens */
+    }
+    
+    .col-md-6 p,
+    button {
+        padding-top: 60px; /* Adjust padding for larger screens */
+    }
+    
+    .img1 {
+        width: 100%; /* Make the image width 100% for larger screens */
+        height: auto; /* Allow the height to adjust proportionally */
+        margin-bottom: 20px; /* Add some space below the image */
+    }
+    
+    .paragraph1,
+    .paragraph2 {
+        width: auto; /* Allow paragraphs to adjust width based on container */
+        font-size: 20px; /* Adjust font size for larger screens */
+        line-height: 24px; /* Adjust line height for larger screens */
+        padding-bottom: 50px; /* Adjust padding bottom for larger screens */
+    }
+    
+    .btn-yuzu-jam2 {
+        width: 100%; /* Make button width 100% for larger screens */
+        max-width: 200px; /* Limit button width to 200px */
+        margin: auto; /* Center the button */
+        margin-bottom: 20px; /* Add some space below the button */
+    }
+    
+    .btn-yuzu-jam2 span {
+        width: auto; /* Allow button text to adjust width */
+        font-size: 16px; /* Adjust font size for larger screens */
+        line-height: 16px; /* Adjust line height for larger screens */
+    }
+
+    #section5 {
+        padding: 10px 0; /* Adjust padding as needed */
+    }
+      
+    .img3 {
+        margin-top: 10px;
+        width: 100%; /* Make the image width 100% for larger screens */
+        height: auto; /* Allow the height to adjust proportionally */
+    }
+      
+    .bg-blush-purple {
+        background-color: #6B3CC9; /* Bluish Purple */
+    }
+    
+    .paragraph10-container {
+        text-align: left;
+        margin-right: 0; /* Remove right margin for larger screens */
+        margin-top: 15px;
+    }
+      
+    .paragraph10 {
+        color: #FFFFFF; /* White text */
+        width: auto; /* Allow the paragraph width to adjust */
+        height: auto; /* Allow the paragraph height to adjust */
+        font-family: Lato; /* Font family */
+        font-size: 14px; /* Adjust font size for larger screens */
+        font-weight: 400; /* Font weight */
+        line-height: 16px; /* Adjust line height for larger screens */
+        text-align: left; /* Text alignment */
+        margin: 0; /* Remove any default margin */
+    }
+      
+    #section5 ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    h5 {
+        font-family: Inter; /* Font family */
+        font-size: 18px; /* Adjust font size for larger screens */
+        font-weight: 600; /* Font weight (600 = semi-bold) */
+        line-height: 22px; /* Adjust line height for larger screens */
+        text-align: left; /* Text alignment */
+        color: #FFFFFF; /* Background color */
+    }
+    
+    li {
+        font-family: Inter; /* Font family */
+        font-size: 12px; /* Adjust font size for larger screens */
+        font-weight: 500; /* Font weight (500 = medium) */
+        line-height: 14px; /* Adjust line height for larger screens */
+        text-align: left; /* Text alignment */
+        color: white; /* Text color */
+        margin-bottom: 5px; /* Adjust margin bottom for larger screens */
+    }
+    
+    hr {
+        border: 1px solid #FFFFFF; /* Border style */
+        width: 100%; /* Make the horizontal line width 100% */
+        height: 0px; /* Height of the horizontal line */
+        border: 1px 0px 0px 0px; /* Border width: top 1px, right 0px, bottom 0px, left 0px */
+    }
+    
+    .paragraph11,
+    .paragraph12 {
+        font-family: Inter; /* Font family */
+        font-size: 12px; /* Adjust font size for larger screens */
+        font-weight: 500; /* Font weight */
+        line-height: 14px; /* Adjust line height for larger screens */
+        text-align: center; /* Text alignment */
+        color: #FFFFFF; /* Text color */
+        margin: 0 5px;
+    }
+    
+    .vertical-line {
+        display: inline-block; /* Display the vertical line for larger screens */
+        width: 1px; /* Set the width of the vertical line */
+        height: 100%; /* Set the height of the vertical line */
+        background-color: #FFFFFF; /* Set the background color of the vertical line */
+        margin: 0 5px; /* Add margin around the vertical line */
+    }
+    
+    .container {
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */  
+    }
+    
+}
+
+    
+
+
+/* Media query for devices with a max-width of 375px */
+@media only screen and (max-width: 375px) {
+    
+}
+
+
+
+  

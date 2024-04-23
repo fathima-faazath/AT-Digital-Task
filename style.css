@@ -1,0 +1,437 @@
+/* Custom CSS */
+
+/* Navbar */
+.navbar {
+    background-color: #6B3CC9; /* Bluish Purple */
+  }
+  
+  .navbar-brand img {
+    max-height: 40px; /* Adjust logo height as needed */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    font-family: Inter;
+    color: #FFFFFF !important; /* White */
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+  
+  
+  
+  /* Section 1 */
+  #section1 {
+    width: auto; /* Width of the section */
+    height: 700px; /* Height of the section */
+    top: 77px; /* Distance from the top */
+    background-image: url('Image/Hero\ Image.png'); /* Background image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .box {
+    width: 630px; /* Fixed width of 630 pixels */
+    height: 306px; /* Hug height of 306 pixels */
+    position: absolute;
+    top: 394px;
+    left: 80px;
+    padding: 24px 40px 32px 40px; /* Padding: top, right, bottom, left */
+    gap: 20px; /* Gap property is typically used with CSS grid and flexbox; it's not applicable here */
+    background: linear-gradient(to right, #4DCA79, #1CBDDD); /* Interstellar Blue to Rich Blue gradient */
+    
+  }
+
+  .box p {
+    font-family: Inter; /* Font family */
+    font-size: 53px; /* Font size */
+    font-weight: 700; /* Font weight (700 = bold) */
+    line-height: 49px; /* Line height */
+    letter-spacing: -0.02em; /* Letter spacing */
+    text-align: left; /* Text alignment */
+    width: 586px; /* Width of the text */
+    height: 192px; /* Height of the text */
+    color: #FFFFFF; /* White text */
+    padding-left: 5px;
+  }
+  
+  
+  .btn-yuzu-jam {
+    background-color: #F28D35; /* Yuzu Jam */
+    color: #FFFFFF; /* White text */
+    width: 214px; /* Hug width of 214 pixels */
+    height: 38px; /* Hug height of 38 pixels */
+    
+    border-radius: 4px 0px 0px 0px; /* Border radius */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .btn-yuzu-jam span {
+    width: 174px; /* Width of the button text */
+    height: 14px; /* Height of the button text */
+    font-family: Inter; /* Font family */
+    font-size: 14px; /* Font size */
+    font-weight: 700; /* Font weight (700 = bold) */
+    line-height: 14px; /* Line height */
+    letter-spacing: -0.02em; /* Letter spacing */
+    text-align: left; /* Text alignment */
+    display: inline-block; /* Ensure inline-block for text alignment */
+  }
+  
+  
+/* Section 2 */
+#section2 {
+  padding: 0;
+}
+
+
+.img1 {
+  width: 414px; /* Width of the image */
+    height: 416px; /* Height of the image */
+    margin-right: 70px;
+  margin-top: 40px; 
+  
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-6.order-md-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
+
+
+.paragraph1 {
+  width: 507px; /* Width of the paragraph */
+  height: 33px; /* Height of the paragraph */
+  font-family: Poppins; /* Font family */
+  font-size: 29px; /* Font size */
+  font-weight: 600; /* Font weight (600 = semi-bold) */
+  line-height: 33px; /* Line height */
+  letter-spacing: 0.4px; /* Letter spacing */
+  text-align: left; /* Text alignment */
+  background: #FFFFFF; /* Background color */
+  color: #6B3CC9; /* Text color */
+  margin-bottom: 20px;
+}
+
+.paragraph2 {
+  width: 542px; /* Width of the paragraph */
+  height: 76px; /* Height of the paragraph */
+  font-family: Inter; /* Font family */
+  font-size: 20px; /* Font size */
+  font-weight: 400; /* Font weight (400 = normal) */
+  line-height: 19.36px; /* Line height */
+  text-align: left; /* Text alignment */
+  color: #000000; /* Text color */
+  padding-bottom: 90px;
+  margin-bottom: 20px;
+  
+}
+
+.btn-yuzu-jam2 {
+  width: 129px; /* Hug width of 129 pixels */
+  height: 38px; /* Hug height of 38 pixels */
+  
+  border-radius: 4px 4px 4px 4px; /* Border radius */
+  background: #F28D35; /* Background color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add cursor pointer */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
+}
+
+.btn-yuzu-jam2 span {
+  width: 89px; /* Width of the text within the button */
+  height: 14px; /* Height of the text within the button */
+  font-family: Inter; /* Font family */
+  font-size: 14px; /* Font size */
+  font-weight: 700; /* Font weight (700 = bold) */
+  line-height: 14px; /* Line height */
+  letter-spacing: -0.02em; /* Letter spacing */
+  text-align: left; /* Text alignment */
+  background: #FFFFFF; /* Background color */
+  display: inline-block; /* Ensure inline-block for text alignment */
+}
+
+
+
+  /* Section 3 */
+  #section3 {
+    padding: auto;
+  }
+
+  .img2 {
+    width: 414px; /* Width of the image */
+    height: 416px; /* Height of the image */
+    margin-left: 70px;  
+  }
+
+  .col-md-6.order-md-1 {
+    margin-top: 90px;
+  }
+
+  .paragraph3 {
+    width: 507px; /* Width of the paragraph */
+    height: 33px; /* Height of the paragraph */
+    font-family: Poppins; /* Font family */
+    font-size: 29px; /* Font size */
+    font-weight: 600; /* Font weight (600 = semi-bold) */
+    line-height: 33px; /* Line height */
+    letter-spacing: 0.4px; /* Letter spacing */
+    text-align: left; /* Text alignment */
+    background: #FFFFFF; /* Background color */
+    color: #6B3CC9; /* Text color */
+    
+  }
+
+  .paragraph4 {
+    width: 542px; /* Width of the paragraph */
+    height: 76px; /* Height of the paragraph */
+    font-family: Inter; /* Font family */
+    font-size: 20px; /* Font size */
+    font-weight: 400; /* Font weight (400 = normal) */
+    line-height: 19.36px; /* Line height */
+    text-align: left; /* Text alignment */
+    color: #000000; /* Text color */
+    padding-bottom: 90px;
+    
+  }
+
+  .btn-yuzu-jam3 {
+    width: 129px; /* Hug width of 129 pixels */
+    height: 38px; /* Hug height of 38 pixels */
+    
+    border-radius: 4px 4px 4px 4px; /* Border radius */
+    background: #F28D35; /* Background color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add cursor pointer */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  .btn-yuzu-jam3 span {
+    width: 89px; /* Width of the text within the button */
+    height: 14px; /* Height of the text within the button */
+    font-family: Inter; /* Font family */
+    font-size: 14px; /* Font size */
+    font-weight: 700; /* Font weight (700 = bold) */
+    line-height: 14px; /* Line height */
+    letter-spacing: -0.02em; /* Letter spacing */
+    text-align: left; /* Text alignment */
+    background: #FFFFFF; /* Background color */
+    display: inline-block; /* Ensure inline-block for text alignment */
+  }
+
+  
+  /* Section 4 */
+  #section4 {
+    padding-top: 0; /* Adjust padding as needed */
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .paragraph5 {
+    font-family: Poppins; /* Font family */
+    font-size: 27px; /* Font size */
+    font-weight: 600; /* Font weight (600 = semi-bold) */
+    line-height: 33px; /* Line height */
+    letter-spacing: 0.4px; /* Letter spacing */
+    color: #6B3CC9; /* Text color */
+    margin: auto;
+    padding-bottom: 25px;
+    }
+
+  .paragraph6 {
+    font-family: Inter; /* Font family */
+    font-size: 22px; /* Font size */
+    font-weight: 500; /* Font weight (500 = medium) */
+    line-height: 28px; /* Line height */
+    color: #6B3CC9; /* Text color */
+    background-color: #f0f0f0; /* Light gray background color */
+    width: 765px; /* Adjust the width as needed */
+    height: 50px;
+    margin: auto; /* Center the background horizontally */
+    
+    }
+
+  .paragraph7 {
+    font-family: Inter; /* Font family */
+    font-size: 18px; /* Font size */
+    font-weight: 400; /* Font weight (500 = medium) */
+    line-height: 30px; /* Line height */
+    color: #6B3CC9; /* Text color */
+    
+    background-color: #f0f0f0; /* Light gray background color */
+    width: 765px; /* Adjust the width as needed */
+    height: 60px;
+    margin:auto
+    
+    
+  }
+  
+
+  .paragraph8 {
+    font-family: Inter; /* Font family */
+    font-size: 22px; /* Font size */
+    font-weight: 500; /* Font weight (500 = medium) */
+    line-height: 28px; /* Line height */
+    color: #000000; /* Text color */
+    background-color: #f0f0f0; /* Light gray background color */
+    width: 765px; /* Adjust the width as needed */
+    height: 40px;
+    margin: auto; /* Center the background horizontally */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+  }
+
+  .paragraph9 {
+    font-family: Inter; /* Font family */
+    font-size: 22px; /* Font size */
+    font-weight: 500; /* Font weight (500 = medium) */
+    line-height: 28px; /* Line height */
+    color: #000000; /* Text color */
+    background-color: #f0f0f0; /* Light gray background color */
+    width: 765px; /* Adjust the width as needed */
+    height: 40px;
+    margin: auto; /* Center the background horizontally */
+  }
+  
+  .paragraph6::after {
+    content: ""; /* Empty content */
+    display: inline-block;
+    width: 20px; /* Width of the image */
+    height: 20px; /* Height of the image */
+    background-image: url('Image/minus.png'); /* URL of the image */
+    background-size: cover; /* Adjust the background size as needed */
+    margin-left: 125px;
+  }
+  
+  .paragraph8::after,
+  .paragraph9::after {
+    content: ""; /* Empty content */
+    display: inline-block;
+    width: 20px; /* Width of the image */
+    height: 30px; /* Height of the image */
+    background-image: url('Image/plus.png'); /* URL of the image */
+    background-size: cover; /* Adjust the background size as needed */
+    margin-left: 65px;
+  }
+  
+  /* Section 5 */
+  #section5 {
+    padding-top: 10px ; /* Adjust padding as needed */
+  }
+  
+  .img3 {
+    margin-top: 10px;
+    width: 238.89px;
+    height: 29px;
+    
+
+  }
+  
+  .bg-blush-purple {
+    background-color: #6B3CC9; /* Bluish Purple */
+    
+  }
+
+  .paragraph10-container {
+    text-align: left;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+  
+  .paragraph10 {
+    color: #FFFFFF; /* White text */
+    width: 413px; /* Width of the paragraph */
+    height: 57px; /* Height of the paragraph */
+    gap: 0px; /* Gap property */
+    font-family: Lato; /* Font family */
+    font-size: 16px; /* Font size */
+    font-weight: 400; /* Font weight */
+    line-height: 19.2px; /* Line height */
+    text-align: left; /* Text alignment */
+    margin: 0; /* Remove any default margin */
+  }
+  
+  #section5 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  h5 {
+    font-family: Inter; /* Font family */
+    font-size: 21px; /* Font size */
+    font-weight: 600; /* Font weight (600 = semi-bold) */
+    line-height: 25.41px; /* Line height */
+    text-align: left; /* Text alignment */
+    color: #FFFFFF; /* Background color */
+}
+
+li {
+  font-family: Inter; /* Font family */
+  font-size: 14px; /* Font size */
+  font-weight: 500; /* Font weight (500 = medium) */
+  line-height: 16.94px; /* Line height */
+  text-align: left; /* Text alignment */
+  color: white; /* Text color */
+  margin-bottom: 7px;
+}
+
+hr {
+  border: 1px solid #FFFFFF; /* Border style */
+  width: 630px; /* Width of the horizontal line */
+  height: 0px; /* Height of the horizontal line */
+  gap: 0px; /* Gap property */
+  border: 1px 0px 0px 0px; /* Border width: top 1px, right 0px, bottom 0px, left 0px */
+}
+
+.paragraph11 {
+  font-family: Inter; /* Font family */
+  font-size: 14px; /* Font size */
+  font-weight: 500; /* Font weight */
+  line-height: 16.94px; /* Line height */
+  text-align: center; /* Text alignment */
+  color: #FFFFFF; /* Background color */
+  margin: 0 5px;
+}
+
+.vertical-line {
+  width: 0; /* Width of the line */
+  height: 15px; /* Height of the line */
+  border-left: 1px solid #FFFFFF; /* Border on the left side */
+  margin: 0 5px;
+}
+
+.paragraph12{
+  font-family: Inter; /* Font family */
+  font-size: 14px; /* Font size */
+  font-weight: 500; /* Font weight */
+  line-height: 16.94px; /* Line height */
+  text-align: center; /* Text alignment */
+  color: #FFFFFF; /* Background color */
+  margin: 0 5px;
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */  
+}
+
+
+
